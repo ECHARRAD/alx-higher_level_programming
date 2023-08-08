@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-print(f'abcdefghijklmnopqrstuvwxyz')
+for character in range(97, 122):
+    print(chr(character), end='')
