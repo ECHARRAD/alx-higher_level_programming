@@ -1,3 +1,5 @@
 #!/usr/bin/python3
+alpha = ""
 for character in range(97, 123):
-    print(chr(character), end='')
+    alpha += "{}".format(chr(character))
+print(alpha)
